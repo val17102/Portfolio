@@ -1,0 +1,17 @@
+.Scroll{
+    width:10px;
+    height: 230px;
+    background-color: rgb(176,170,152);
+    position: absolute;
+    top: 50px;
+    left:30px; 
+}
+
+.Scroll2{
+    width:2px;
+    height: 230px;
+    background-color: rgb(176,170,152);
+    position: absolute;
+    top: 50px;
+    left:45px; 
+}

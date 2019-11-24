@@ -1,0 +1,28 @@
+.Arrow1{
+    width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-bottom: 12px solid rgb(69,68,60);
+      position: relative;
+      top: 50px;
+      transform: rotate(-90deg);
+}
+.Arrow2{
+    width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-bottom: 20px solid rgb(69,68,60);
+      position: relative;
+      top: 12.2px;
+      right: 8px;
+      transform: rotate(180deg);
+}
+.Point{
+    position: relative;
+    width: 4px;
+      height: 4px;
+      background: rgb(176,170,152);
+      border-radius: 50%;
+      right: 2.5px; 
+      top: -18px;
+}
