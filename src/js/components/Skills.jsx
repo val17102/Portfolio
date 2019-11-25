@@ -13,7 +13,7 @@ class Skills extends Component{
     appear(){
         setTimeout(() =>{
         this.setState({
-            width: '300px'
+            width: '100%'
         })
     }, 200)
 
@@ -26,7 +26,7 @@ class Skills extends Component{
     render(){
         return(
             <div>
-                <div style={{width: `${this.state.width}`,transition: 'width 0.05s'}} className="back">
+                <div style={{width: `${this.state.width}`,transition: 'width 0.07s'}} className="back">
                     <div className="top"> <p className="pTop">Skills</p> </div>
                     <div className="pMain">
                         <p style={{marginTop: '3px'}} className="pMainB">Languages</p>
@@ -57,8 +57,8 @@ class Skills extends Component{
                             <li><div style={{width:'45%'}} className="progress"/></li>
                             <li style={{textAlign: 'right'}}>45/100</li>
                         </ul>
-                        <hr style={{width:'90%', left:'-10px',position:'relative'}}></hr>
                         <p className="pMainB">Frameworks</p>
+                        <hr style={{width:'90%', left:'-10px',position:'relative'}}></hr>
                         <ul>
                             <li>Django:</li>
                             <li><div style={{width:'50%'}} className="progress"/></li>

@@ -4,7 +4,7 @@
     background-color: rgb(176,170,152);
     position: absolute;
     top: 50px;
-    left:30px; 
+    left:5%; 
 }
 
 .Scroll2{
@@ -13,5 +13,44 @@
     background-color: rgb(176,170,152);
     position: absolute;
     top: 50px;
-    left:45px; 
+    left:6%; 
+}
+
+.line{
+    width: 2px;
+    transform: rotate(140deg);
+    position: absolute;
+    background-color: rgb(176,170,152,0.5);
+    z-index: -3;
+}
+
+.line1{
+    width: 2px;
+    transform: rotate(30deg);
+    position: absolute;
+    background-color: rgb(176,170,152,0.5);
+    z-index: -3;
+}
+
+.line2{
+    width: 100%;
+    position: absolute;
+    z-index: -3;
+    background-color:  rgb(69,68,60);
+    height: 1.5px;
+    box-shadow: 0px 1px rgb(176,170,152);
+}
+
+.welcome{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    color: rgb(176,170,152);
+    background-color:rgb(69,68,60);
+    text-align: center;
+    padding: 1;
+    font-weight: 500;
+    font-size: 180%;
+    overflow: hidden;
+    box-shadow: 3px 3px;
 }

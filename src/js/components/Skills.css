@@ -24,27 +24,43 @@
 }
 
 .pMainB{
-    font-weight: 430;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .pMain{
     position: relative;
     left: 10px;
-    font-weight: 380;
+    font-weight: 420;
     color: rgb(69,68,60);
     top: 5px;
     width: 100%;
     overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: unset;
 }
 
 ul{
     position: relative;
     list-style: none;
     left: -25px;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
     width: 100%;
     overflow: hidden;
     
+    
+}
+
+.ulb{
+    position: relative;
+    left: -25px;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+    width: 100%;
+    overflow: hidden;
+    list-style: circle;
 }
 
 li{
@@ -54,8 +70,17 @@ li{
     overflow: hidden;
 }
 
+.lib{
+    width: 80%;
+    margin-right: 5px;
+    overflow: hidden;
+    list-style-type: circle;
+    font-weight: 450;
+}
+
 .progress{
     background-color: rgb(176,170,152);
     height: 15px;
     border-radius: 0%;
+    margin-bottom: 5px;
 }

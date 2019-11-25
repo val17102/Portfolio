@@ -10,7 +10,7 @@ class Navigator extends Component{
         const style = {
             top: `${this.props.object.pos}`,
             transition: 'top 0.3s',
-            left: '30px',
+            left: '5%',
             position: 'relative',
             width: '30px'
         }
